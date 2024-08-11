@@ -1,0 +1,21 @@
+import os
+def clearConsole():
+        os.system('cls')
+
+#O tipo None em Python é utilizado para representar a ausência de valor ou um valor nulo.
+
+
+
+clearConsole()#Limpar tela
+print("Seja Bem-Vindo")
+
+name = input("Digite o seu nome se você desejar: ")
+
+def saudar(name=None):
+    if name is None or name.strip() == "":
+        print("Olá, visitante!")
+    else:
+        print(f"Olá, {name}!")
+
+# Chama a função apenas com o nome fornecido
+saudar(name)
