@@ -31,8 +31,8 @@ SimpleDictionary["profissão"] = "Engenheira"
 SimpleDictionary["idade"] = 31
 Idade = SimpleDictionary["idade"]
 print("Idade Depois da Modificaocao: ",Idade)
-#Removendo um par chave-valor
 
+#Removendo um par chave-valor
 del SimpleDictionary["cidade"]
 
 print("---------------------------------------------")
