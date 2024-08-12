@@ -31,8 +31,8 @@ cont = 10
 # Caso a Variável sumVariable for maior que a Variável cont ele ira entrar no if somando com o valor do cont
 if(sum > cont):
     sum = sum + cont
-    print("Resultado da Soma: " , sum)
+    print("\nResultado da Soma: " , sum)
 
 if(sum > cont):
     sum += cont
-    print("Resultado da Soma: " , sum)
+    print("\nResultado da Soma: " , sum)

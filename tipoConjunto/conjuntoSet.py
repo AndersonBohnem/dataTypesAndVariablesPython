@@ -19,4 +19,5 @@ intersection = oneSet & twoSet
 print("\n---Interseção " , oneSet , " & " , twoSet , "\nResposta: " , intersection)
 
 difference = oneSet - twoSet
-print("\n---Diferença pega os elementos que contém no primeiro e não no segundo" , oneSet , " & " , twoSet , "\nResposta: " , difference)
+print("\n---Diferença pega os elementos que contém no primeiro e não no segundo" ,
+       oneSet , " & " , twoSet , "\nResposta: " , difference)
