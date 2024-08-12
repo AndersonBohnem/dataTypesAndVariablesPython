@@ -5,11 +5,16 @@ def clearConsole():
 #Strings são sequências de caracteres que podem ser utilizadas para armazenar e manipular texto em linguagens de programação. 
 clearConsole()
 
+Basic_1 = "Ola Mundo"
+name = "Carlos"    
+surname = "Silva"
+age = "19"
+hobby = "andar de Bike"
 
-Basic_1 = "Ola Mundo"   #Texto que e o mais importante de todos
-variableOne = "10"      #Declarando que o Numero 10 em texto 
-variableTwo = "20"      #Declarando que o Numero 20 em texto 
-
+print("Podemos chamar a variável direto:")
 print(Basic_1)
-print("Valor variavel 1: " , variableOne)
-print("Valor variavel 2: " , variableTwo)
+print("\nChamar adicionando com mensagem:")
+print("Nome: " , name)
+print("Sobrenome: " , surname)
+
+print("\nMeu nome é" , name , surname , "tenho" , age , "anos e gosto de" , hobby)

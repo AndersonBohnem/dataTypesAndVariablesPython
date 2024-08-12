@@ -9,8 +9,8 @@ clearConsole()
 oneVariable = 64.0
 twoVariable = 1.6
 
-print("Valor variavel 1: " , oneVariable)
-print("Valor variavel 2: " , twoVariable)
+print("Valor Variável 1: " , oneVariable)
+print("Valor Variável 2: " , twoVariable)
 
 sum = oneVariable + twoVariable
 print("\n---Soma: " , oneVariable , " + " , twoVariable , "\nResultado: " , sum)

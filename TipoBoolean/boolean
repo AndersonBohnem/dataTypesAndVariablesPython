@@ -1,0 +1,24 @@
+import os
+
+def clearConsole():
+    os.system('cls')
+
+#Tipo Boolean
+
+clearConsole()
+oneVariable = True
+twoVariable = False
+
+print("Variável 1: " , oneVariable)
+print("Variável 2: " , twoVariable)
+
+print("\nOperadores Lógicos:")
+
+operatorAnd = oneVariable and twoVariable
+print("\nUtilizando o Operador And\nCompara:" , oneVariable , "com" , twoVariable , "que resulta em:" , operatorAnd)
+
+operatorOr = oneVariable or twoVariable
+print("\nUtilizando o Operador Or\nCompara:" , oneVariable , "com" , twoVariable , "que resulta em:" , operatorOr)
+
+operatorNot = not oneVariable
+print("\nUtilizando o Operador Not\nNessa variável:" , oneVariable , "que resulta em:" , operatorOr)

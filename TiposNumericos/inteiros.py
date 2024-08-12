@@ -9,8 +9,8 @@ clearConsole()
 oneVariable = 20
 twoVariable = 10
 
-print("Valor variavel 1: " , oneVariable)
-print("Valor variavel 2: " , twoVariable)
+print("Valor Variável 1: " , oneVariable)
+print("Valor Variável 2: " , twoVariable)
 
 sum = oneVariable + twoVariable
 print("\n---Soma: " , oneVariable , " + " , twoVariable , "\nResultado: " , sum)
@@ -28,7 +28,7 @@ power = oneVariable ** twoVariable
 print("\n---Potência: " , oneVariable , " ** " , twoVariable , "\nResultado: " , power)
 
 cont = 10
-# Caso a variavel sumVariable for maior que a variavel cont ele ira entrar no if somando com o valor do cont
+# Caso a Variável sumVariable for maior que a Variável cont ele ira entrar no if somando com o valor do cont
 if(sum > cont):
     sum = sum + cont
     print("Resultado da Soma: " , sum)
