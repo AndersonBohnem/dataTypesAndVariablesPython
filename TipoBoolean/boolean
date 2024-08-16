@@ -21,4 +21,4 @@ operatorOr = oneVariable or twoVariable
 print("\nUtilizando o Operador Or\nCompara:" , oneVariable , "com" , twoVariable , "que resulta em:" , operatorOr)
 
 operatorNot = not oneVariable
-print("\nUtilizando o Operador Not\nNessa variável:" , oneVariable , "que resulta em:" , operatorOr)
+print("\nUtilizando o Operador Not\nNessa variável:" , oneVariable , "que resulta em:" , operatorNot)
